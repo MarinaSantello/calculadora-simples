@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #339989;
+    background-color: #2b2c28;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
+input {
+    width: 20vw;
+    height: 30px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #fffafb;
+    border-radius: 10px;
+    border: none;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#output {
+    width: 18vw;
+    height: 100px;
+    border: rgb(255, 255, 255) solid 3px;
+    border-radius: 0px 20px;
+    color: #fffafb;
+}
